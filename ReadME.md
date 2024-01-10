@@ -1,10 +1,12 @@
 # Overview
 This git repository contains code which extracts audio features from datasets. Specifically the:
-- zero crossing rate
-- spectral centroid
-- spectral rolloff
-- MFCC
-- Chroma frequencies
+- zero crossing rate [x]
+- spectral centroid [x]
+- spectral rolloff [x]
+- MFCC (Mel-frequency Cepstral Coefficients) [x]
+- Chroma frequencies [x]
+- Root Mean Square (RMS) Energy Signal [x]
+- Amplitude Envelope of the Audio Signal
 
 # Getting started
 In order to set up this project you will need the repository, and a virtual environment that contains all the required software dependencies.
