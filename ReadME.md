@@ -69,3 +69,18 @@ Use your python package manager (conda/miniconda/mamba) to cd into the root dire
 
 
 This should create a virtual environment called `audio_feature_extraction` that will contain all the packages required to run this tool. I cannot guarantee that the environment will be resolved without conflicts (especially between the pip and conda packages). Some packages such as gensim and numba have been observed to create problems in the past. There may be a bit of tinkering with packages and versioning in the YML file that needs to be done to set the venv up correctly.
+
+# Structure
+The local repo must have the following top level directrory layout: 
+
+    ├── /notebooks
+    ├── /audio_datasets                    
+    │   ├── /TargetEvent   
+    │   ├── ...
+    ├── main.py
+    ├── conda-lock.yml
+    ├── environment.yml
+    ├── .gitignore        
+    └── README.md         
+
+Place the audio files to be analyzed into /audio_datasets/TargetEvent   
